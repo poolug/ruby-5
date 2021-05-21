@@ -1,5 +1,3 @@
-
-
 n = ARGV[0].to_i
 
 def cover(n)
@@ -44,7 +42,7 @@ def body_i(n)
 end
 
 def letra_i(x)
-    cover(x
+    cover(x)
     body_i(x)
     cover(x)
 end
@@ -96,26 +94,25 @@ end
 body_x(n)
 
 ######### Número cero
+# def body_0(n)
+#     print "*"
+#     (n-2).times do |i|
+#         n.tmes do |j|
+#             if j == (i + 1) || (j - 1) == 1
+#                 print "*"
+#             else
+#                 print "\s"
+#             end
+#         end
+#     print "\n"
+#     end
+# end
 
-def body_0(n)
-    print "*"
-    (n-2).times do |i|
-        n.tmes do |j|
-            if j == (i + 1) || (j - 1) == 1
-                print "*"
-            else
-                print "\s"
-            end
-        end
-    print "\n"
-    end
-end
+# def numero_cero(x)
+#     cover(x)
+#     body_0(x)
+#     cover(x)
+# end
 
-def numero_cero(x)
-    cover(x)
-    body_0(x)
-    cover(x)
-end
-
-numero_cero(n)
-print "\n"
+# numero_cero(n)
+# print "\n"
